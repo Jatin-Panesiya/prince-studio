@@ -8,7 +8,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="shadow-sm bg-white sticky top-0 p-5 flex items-center justify-between">
+    <div className="shadow-sm bg-white sticky top-0 py-5 flex items-center justify-between container">
       <h1 className="capitalize font-poppins-bold tracking-tight text-xl">
         prince studio
       </h1>
