@@ -21,7 +21,7 @@ export const headerData = [
   },
   {
     id: 5,
-    title: "Contact",
+    title: "Contact Us",
     link: "/contact",
-  },    
+  },
 ];

@@ -8,8 +8,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="shadow-sm bg-white sticky top-0 py-5 flex items-center justify-between container">
-      <h1 className="capitalize font-poppins-bold tracking-tight text-xl">
+    <div className="shadow-sm bg-[#1b1b1b] text-white sticky z-[100] top-0 !py-7 flex items-center justify-between top-container">
+      <h1 className="uppercase font-poppins-bold tracking-tight text-xl">
         prince studio
       </h1>
 
@@ -33,7 +33,7 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="fixed grid left-0 top-20 sm:hidden bg-white shadow-md w-full justify-center gap-y-5 py-5">
+        <div className="fixed grid left-0 top-[69px] sm:hidden bg-[#1b1b1b] shadow-md w-full justify-center gap-y-5 py-5">
           {headerData.map((item) => (
             <Link
               key={item.id}
