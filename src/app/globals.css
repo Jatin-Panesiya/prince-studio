@@ -17,6 +17,15 @@
   src: url("../assets/fonts/merriweather-sans/MerriweatherSans-ExtraBold.ttf");
 }
 
+@font-face {
+  font-family: "Merry-Bold";
+  src: url("../assets/fonts/merriweather-sans/MerriweatherSans-Bold.ttf");
+}
+
+.font-merry-bold {
+  font-family: "Merry-Bold" !important;
+}
+
 .font-merry-extrabold {
   font-family: "Merry-ExtraBold" !important;
 }
@@ -63,6 +72,6 @@
 
 @media (min-width: 1280px) {
   .top-container {
-    padding: 0 5rem;
+    padding: 0 7rem;
   }
 }

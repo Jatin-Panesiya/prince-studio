@@ -16,8 +16,8 @@ export const headerData = [
   },
   {
     id: 4,
-    title: "Portfolio",
-    link: "/portfolio",
+    title: "Gallery",
+    link: "/gallery",
   },
   {
     id: 5,
