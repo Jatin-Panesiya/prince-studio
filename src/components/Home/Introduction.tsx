@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="top-container !py-20 flex items-center justify-between">
+    <div className="top-container !py-20 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
       <div className="space-y-5">
         <div className="max-w-[600px] space-y-5">
           <p className="font-merry-bold text-3xl leading-10 tracking-wide">
@@ -42,7 +42,12 @@ const Introduction = () => {
           </div>
           <div>
             <p className="text-xl">Chandresh Chavda</p>
-            <p className="text-[13px]">Founder of Prince Studio</p>
+            <p className="text-[13px]">
+              Founder of{" "}
+              <span className="text-primary font-poppins-bold">
+                Prince Studio
+              </span>
+            </p>
           </div>
         </div>
       </div>

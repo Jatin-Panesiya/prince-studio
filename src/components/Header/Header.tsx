@@ -18,7 +18,7 @@ const Header = () => {
           <Link
             key={item.id}
             href={item.link}
-            className="hover:text-blue-500 !transition-all !duration-300"
+            className="hover:text-primary !transition-all !duration-300"
           >
             {item.title}
           </Link>
@@ -33,12 +33,12 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="fixed grid left-0 top-[69px] sm:hidden bg-[#1b1b1b] shadow-md w-full justify-center gap-y-5 py-5">
+        <div className="fixed grid text-center left-0 top-[69px] sm:hidden bg-[#1b1b1b] shadow-md w-full justify-center gap-y-5 py-5">
           {headerData.map((item) => (
             <Link
               key={item.id}
               href={item.link}
-              className="hover:text-blue-500 !transition-all !duration-300"
+              className="hover:text-primary !transition-all !duration-300"
             >
               {item.title}
             </Link>
