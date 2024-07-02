@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className="relative top-container !py-10 bg-[url('../assets/Images/HeroBg.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-black opacity-60"></div>
-      <div className="relative max-w-[600px] space-y-3 h-[calc(100vh-164px)] flex flex-col text-white justify-center">
+      <div className="relative max-w-[600px] space-y-3 h-[calc(100vh-187px)] flex flex-col text-white justify-center">
         <p>Welcome to my</p>
         <h1 className="uppercase text-6xl max-sm:text-5xl font-merry-extrabold text-primary">
           prince studio

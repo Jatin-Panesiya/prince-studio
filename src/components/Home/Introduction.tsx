@@ -54,10 +54,10 @@ const Introduction = () => {
 
       <div className="px-10">
         <Image
-          src="/Images/face.jpg"
+          src="/Images/chandresh.jpg"
           width={390}
           height={470}
-          className="hover:scale-95 min-w-[390px] min-h-[470px] max-sm:min-w-0 max-sm:min-h-0 transition-all duration-500 rounded shadow-2xl shadow-black"
+          className="hover:scale-95 min-w-[390px] min-h-[470px] max-sm:min-w-0 max-sm:min-h-0 transition-all duration-500 rounded shadow-2xl shadow-primary/20"
           alt="Chandresh Chavda"
         />
         {/* <div className="bg-[#1b1b1b] w-[380px] right-3 -bottom-7 -z-10 h-[450px] absolute rounded" /> */}

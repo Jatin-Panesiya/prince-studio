@@ -1,5 +1,6 @@
 "use client";
 import { headerData } from "@/utils/constants";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { MdOutlineClose, MdOutlineMenu } from "react-icons/md";
@@ -9,9 +10,10 @@ const Header = () => {
 
   return (
     <div className="shadow-sm bg-[#1b1b1b] text-white sticky z-[100] top-0 !py-7 flex items-center justify-between top-container">
-      <h1 className="uppercase font-poppins-bold tracking-tight text-xl text-slate-100">
+      <h1 className="uppercase font-poppins-bold tracking-tight text-xl text-slate-100 hidden">
         prince studio
       </h1>
+      <Image src="/Images/logo.png" alt="logo" width={130} height={130} />
       {/* Desktop */}
       <div className="sm:flex items-center gap-x-5 hidden">
         {headerData.map((item) => (
