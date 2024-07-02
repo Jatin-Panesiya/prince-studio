@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
@@ -14,9 +15,9 @@ const HeroSection = () => {
           hear their story untold
         </p>
         <div className="flex items-center gap-3 flex-wrap pt-10">
-          <button className="bg-white py-3 shadow-md max-[330px]:max-w-52 max-[330px]:w-full hover:shadow-white/30 shadow-black/30 px-7 hover:bg-transparent hover:text-white transition-all duration-150 text-black border border-white rounded-full">
+          <Link href="/my-work" className="bg-white py-3 shadow-md max-[330px]:max-w-52 max-[330px]:w-full hover:shadow-white/30 shadow-black/30 px-7 hover:bg-transparent hover:text-white transition-all duration-150 text-black border border-white rounded-full">
             My works
-          </button>
+          </Link>
           <button className="bg-transparent py-3 shadow-md max-[330px]:max-w-52 max-[330px]:w-full hover:shadow-black/30 shadow-white/30  hover:bg-white hover:text-black transition-all duration-150 px-7 text-white border border-white rounded-full">
             Contact me
           </button>

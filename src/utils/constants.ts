@@ -19,12 +19,12 @@ export const headerData = [
   {
     id: 4,
     title: "Gallery",
-    link: "/gallery",
+    link: "/my-work",
   },
   {
     id: 5,
     title: "Contact Us",
-    link: "/contact",
+    link: "/contact-us",
   },
 ];
 
