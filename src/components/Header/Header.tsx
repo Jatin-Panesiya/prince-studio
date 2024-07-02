@@ -36,7 +36,7 @@ const Header = () => {
 
       {/* Mobile */}
       {isMenuOpen && (
-        <div className="fixed grid text-center left-0 top-[69px] sm:hidden bg-[#1b1b1b] shadow-md w-full justify-center gap-y-5 py-5">
+        <div className="fixed grid text-center left-0 top-[108px] sm:hidden bg-[#1b1b1b] shadow-md w-full justify-center gap-y-5 py-5">
           {headerData.map((item) => (
             <Link
               key={item.id}

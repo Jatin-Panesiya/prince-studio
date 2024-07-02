@@ -72,3 +72,26 @@ export const services = [
     Icon: CiCamera,
   },
 ];
+
+export const workImages = [
+  {
+    id: 1,
+    image: "/Images/work-images/image1.jpg",
+  },
+  {
+    id: 2,
+    image: "/Images/work-images/image2.jpg",
+  },
+  {
+    id: 5,
+    image: "/Images/work-images/image5.jpg",
+  },
+  {
+    id: 3,
+    image: "/Images/work-images/image3.jpg",
+  },
+  {
+    id: 4,
+    image: "/Images/work-images/image4.jpg",
+  },
+];
