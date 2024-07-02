@@ -1,5 +1,4 @@
 import { workImages } from "@/utils/constants";
-import Image from "next/image";
 import React from "react";
 
 const MyWork = () => {
