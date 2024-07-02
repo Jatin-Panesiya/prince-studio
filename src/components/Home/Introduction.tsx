@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="top-container !py-20 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
+    <div className="top-container !py-20 max-sm:!py-10 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
       <div className="space-y-5">
         <div className="max-w-[600px] space-y-5">
-          <p className="font-merry-bold text-3xl leading-10 tracking-wide">
+          <p className="font-merry-bold text-3xl leading-10 tracking-wide max-sm:text-xl">
             Hello, I'm Chandresh Chavda, a professional photographer based on
             Rajkot
           </p>
-          <p className="text-base text-gray-600">
+          <p className="text-base text-gray-600 max-sm:text-sm max-sm:leading-6">
             I love to pause the wild, happy and real moments of life, just to
             hear their stories untold. Viverra tristique usto duis vitae diam
             neque nivamus estan ateuene artines viverra nec setlie no curabit
@@ -36,17 +36,17 @@ const Introduction = () => {
 
         <Divider />
 
-        <div className="text-base flex items-center gap-10">
+        <div className="text-base flex items-center gap-10 max-sm:gap-7">
           <div>
             <p>Signature</p>
           </div>
           <div>
-            <p className="text-xl">Chandresh Chavda</p>
+            <h1 className="text-xl capitalize max-sm:text-lg">chandresh chavda</h1>
             <p className="text-[13px]">
               Founder of{" "}
-              <span className="text-primary font-poppins-bold">
-                Prince Studio
-              </span>
+              <h1 className="text-primary inline font-poppins-bold capitalize">
+                prince studio
+              </h1>
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Introduction = () => {
           src="/Images/face.jpg"
           width={390}
           height={470}
-          className="hover:scale-95 min-w-[390px] h-[470px] transition-all duration-500 rounded shadow-2xl shadow-black"
+          className="hover:scale-95 min-w-[390px] min-h-[470px] max-sm:min-w-0 max-sm:min-h-0 transition-all duration-500 rounded shadow-2xl shadow-black"
           alt="Chandresh Chavda"
         />
         {/* <div className="bg-[#1b1b1b] w-[380px] right-3 -bottom-7 -z-10 h-[450px] absolute rounded" /> */}
