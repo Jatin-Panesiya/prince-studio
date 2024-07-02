@@ -1,20 +1,19 @@
 import { services } from "@/utils/constants";
 import React from "react";
-import { CiCamera } from "react-icons/ci";
 
 const MyServices = () => {
   return (
-    <div className="bg-[#1b1b1b] text-white top-container !py-20 max-sm:!py-10">
+    <div className="bg-dark text-white top-container !py-20 max-sm:!py-10">
       <div className="text-center max-w-[700px] mx-auto space-y-5">
         <p className="text-4xl font-merry-bold tracking-tight">
           My <span className="text-primary"> Services </span>
         </p>
-        <p className="max-sm:text-sm max-sm:leading-5">
+        <div className="max-sm:text-sm max-sm:leading-5">
           Explore <h1 className="capitalize inline text-primary">prince studio</h1>, where we
           specialize in expert photography and videography. From weddings to
           commercial projects, we create visual stories that capture life's
           moments with skill and care
-        </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-3 max-[800px]:grid-cols-2 max-[500px]:grid-cols-1 mt-10 gap-10">

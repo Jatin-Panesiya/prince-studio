@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="top-container !py-20 max-sm:!py-10 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
+    <div className="top-container bg-slate-100 !py-20 max-sm:!py-10 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
       <div className="space-y-5">
         <div className="max-w-[600px] space-y-5">
           <p className="font-merry-bold text-3xl leading-10 tracking-wide max-sm:text-xl">
@@ -42,12 +42,12 @@ const Introduction = () => {
           </div>
           <div>
             <h1 className="text-xl capitalize max-sm:text-lg">chandresh chavda</h1>
-            <p className="text-[13px]">
+            <div className="text-[13px] flex items-center gap-x-1">
               Founder of{" "}
-              <h1 className="text-primary inline font-poppins-bold capitalize">
+              <h1 className="text-primary text-base inline font-poppins-bold capitalize">
                 prince studio
               </h1>
-            </p>
+            </div>
           </div>
         </div>
       </div>
