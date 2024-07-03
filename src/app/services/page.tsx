@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ContactUs = () => {
+const Services = () => {
   return (
     <div className='top-container !py-20 max-sm:py-10'>
-      <p>CONTACT US PAGE IS COMING SOON...</p>
+      <p>SERVICES COMING SOON...</p>
     </div>
   )
 }
 
-export default ContactUs
+export default Services

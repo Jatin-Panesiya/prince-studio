@@ -2,11 +2,13 @@
 import { headerData } from "@/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { MdOutlineClose, MdOutlineMenu } from "react-icons/md";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <div className="shadow-sm bg-[#1b1b1b] text-white sticky z-[100] top-0 !py-7 flex items-center justify-between top-container">
@@ -20,7 +22,9 @@ const Header = () => {
           <Link
             key={item.id}
             href={item.link}
-            className="hover:text-primary !transition-all !duration-300"
+            className={`hover:text-primary ${
+              pathname === item.link && "text-primary"
+            } !transition-all !duration-300`}
           >
             {item.title}
           </Link>
@@ -42,7 +46,9 @@ const Header = () => {
               key={item.id}
               href={item.link}
               onClick={() => setIsMenuOpen(false)}
-              className="hover:text-primary !transition-all !duration-300"
+              className={`hover:text-primary ${
+                pathname === item.link && "text-primary"
+              } !transition-all !duration-300`}
             >
               {item.title}
             </Link>

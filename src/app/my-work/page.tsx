@@ -3,7 +3,7 @@ import React from 'react'
 const MyWork = () => {
   return (
     <div className='top-container !py-20 max-sm:py-10'>
-      <p>COMING SOON...</p>
+      <p>GALLERY IS COMING SOON...</p>
     </div>
   )
 }

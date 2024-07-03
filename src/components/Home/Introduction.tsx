@@ -8,14 +8,14 @@ const Introduction = () => {
       <div className="space-y-5">
         <div className="max-w-[600px] space-y-5">
           <p className="font-merry-bold text-3xl leading-10 tracking-wide max-sm:text-xl">
-            Hello, I'm Chandresh Chavda, a professional photographer based on
-            Rajkot
+            Hello, I'm Chandresh Chavda, a Wedding photographer from Gujarat.
           </p>
           <p className="text-base text-gray-600 max-sm:text-sm max-sm:leading-6">
-            I love to pause the wild, happy and real moments of life, just to
-            hear their stories untold. Viverra tristique usto duis vitae diam
-            neque nivamus estan ateuene artines viverra nec setlie no curabit
-            tristique.
+            I love capturing the vibrant, joyful, and genuine moments of life,
+            turning them into timeless stories. Each photograph tells a unique
+            tale, preserving the emotions and memories for generations to come.
+            Passionate about my craft, I strive to bring out the beauty and
+            essence in every frame.
           </p>
 
           <div className="text-base text-gray-600 grid gap-y-3">
@@ -41,7 +41,9 @@ const Introduction = () => {
             <p>Signature</p>
           </div>
           <div>
-            <h1 className="text-xl capitalize max-sm:text-lg">chandresh chavda</h1>
+            <h1 className="text-xl capitalize max-sm:text-lg">
+              chandresh chavda
+            </h1>
             <div className="text-[13px] flex items-center gap-x-1">
               Founder of{" "}
               <h1 className="text-primary text-base inline font-poppins-bold capitalize">

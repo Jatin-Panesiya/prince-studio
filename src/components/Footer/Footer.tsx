@@ -50,7 +50,11 @@ const Footer = () => {
               href="https://youtube.com/@studioprinceofficial4827?si=rZsWXUMdYWlGh3DG"
               target="_blank"
             >
-              <FaYoutube size={30} color="red" className="cursor-pointer bg-white rounded" />
+              <FaYoutube
+                size={30}
+                color="red"
+                className="cursor-pointer bg-white hover:bg-primary rounded"
+              />
             </a>
             <a href={whatsappUrl} target="_blank">
               <IoLogoWhatsapp
@@ -63,10 +67,14 @@ const Footer = () => {
         </div>
         <div>
           <p className="font-merry-bold pb-1">Call us</p>
-          <a href="tel:9824383396">+91 9824383396</a>
+          <a href="tel:9824383396" className="hover:text-primary transition-all duration-150">
+            +91 9824383396
+          </a>
         </div>
         <div>
-          <p className="font-poppins-medium">&copy; 2024 Prince Studio. All Rights Reserved.</p>
+          <p className="font-poppins-medium">
+            &copy; 2024 Prince Studio. All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>
