@@ -53,7 +53,7 @@ const Footer = () => {
               <FaYoutube
                 size={30}
                 color="red"
-                className="cursor-pointer bg-white hover:bg-primary rounded"
+                className="cursor-pointer bg-white rounded"
               />
             </a>
             <a href={whatsappUrl} target="_blank">
