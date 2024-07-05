@@ -4,6 +4,15 @@ import React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 
+function srcset(image: string, size: number, rows = 1, cols = 1) {
+  return {
+    src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
+    srcSet: `${image}?w=${size * cols}&h=${
+      size * rows
+    }&fit=crop&auto=format&dpr=2 2x`,
+  };
+}
+
 const Gallary = () => {
   return (
     <div className="bg-slate-100">
@@ -13,7 +22,7 @@ const Gallary = () => {
         </p>
         <Divider className="pb-10" />
 
-        <ImageList cols={3} variant="quilted">
+        {/* <ImageList cols={3} variant="quilted">
           {workImages.map((data) => (
             <ImageListItem key={data.image}>
               <a href={data.image} target="_blank">
@@ -24,6 +33,26 @@ const Gallary = () => {
                   loading="lazy"
                 />
               </a>
+            </ImageListItem>
+          ))}
+        </ImageList> */}
+
+        <ImageList
+          variant="quilted"
+          cols={4}
+          rowHeight={121}
+        >
+          {workImages.map((item) => (
+            <ImageListItem
+              key={item.image}
+              cols={item.cols || 1}
+              rows={item.rows || 1}
+            >
+              <img
+                {...srcset(item.image, 121, item.rows, item.cols)}
+                alt={item.image}
+                loading="lazy"
+              />
             </ImageListItem>
           ))}
         </ImageList>
