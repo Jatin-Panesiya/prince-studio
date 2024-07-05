@@ -4,7 +4,8 @@ import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="top-container relative bg-slate-100 !py-20 max-sm:!py-10 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
+    <div className="bg-slate-100">
+    <div className="top-container relative !py-20 max-sm:!py-10 flex max-[900px]:flex-col-reverse max-[900px]:gap-y-10 items-center justify-between">
       <div className="space-y-5 ">
         <div className="max-w-[600px] space-y-5">
           <p className="font-merry-bold text-3xl leading-10 tracking-wide max-sm:text-xl">
@@ -65,6 +66,7 @@ const Introduction = () => {
         />
         {/* <div className="bg-[#1b1b1b] w-[380px] right-3 -bottom-7 -z-10 h-[450px] absolute rounded" /> */}
       </div>
+    </div>
     </div>
   );
 };

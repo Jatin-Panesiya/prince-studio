@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <MantineProvider>
           <Header />
-          <div className="min-h-[calc(100vh-164px)]">{children}</div>
+          <div>{children}</div>
           <Footer />
         </MantineProvider>
       </body>

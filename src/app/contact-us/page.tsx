@@ -6,16 +6,23 @@ import { MdOnlinePrediction } from "react-icons/md";
 const ContactUs = () => {
   return (
     <>
-      <div className="top-container relative bg-dark bg-[url('/Images/bgContact.png')] bg-cover bg-center min-h-[calc(100vh-500px)] items-center text-white !py-20 max-sm:py-10">
-        <div className="absolute inset-0 bg-black opacity-70"></div>
+    <div className="bg-dark relative bg-[url('/Images/bgContact.jpg')] bg-cover bg-center">
+      <div className="top-container  items-center text-white !py-20 max-sm:py-10">
+        <div className="absolute inset-0 bg-black opacity-80"></div>
         <div className="max-w-[500px] relative z-10 my-20 max-sm:my-10">
           <p className="text-4xl text-primary font-merry-bold">Contact Us</p>
           <Divider className="my-2" />
-          <p>Contact us ....</p>
+          <p className="leading-7">
+            We'd love to hear from you! Whether you have questions or want to
+            discuss your photography needs, feel free to reach out. You can
+            contact us via phone or email. Let's make your special moments
+            unforgettable.
+          </p>
         </div>
       </div>
-
-      <div className="top-container !py-20 max-sm:py-10">
+      </div>
+      <div className="bg-slate-100">
+      <div className="top-container !py-20 max-sm:py-10 bg-slate-100">
         <p className="font-poppins-bold text-xl">Information</p>
         <div className="mt-10 grid grid-cols-2 gap-5 max-md:grid-cols-1">
           <div className="max-w-[600px] space-y-7">
@@ -63,7 +70,6 @@ const ContactUs = () => {
                 </a>
               </p>
             </div>
-
             <div className="flex items-center gap-3 max-w-[500px]">
               <div>
                 <MdOnlinePrediction size={25} />
@@ -79,7 +85,7 @@ const ContactUs = () => {
               </p>
             </div>
           </div>
-
+          <Divider color="#ffc859" className="max-md:block hidden" />
           <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14768.057574163306!2d70.8564437!3d22.2774446!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b5bde8b3ec37%3A0x87fa41e5dfb992ae!2sPrince%20studio%20rajkot!5e0!3m2!1sen!2sin!4v1720082671133!5m2!1sen!2sin"
@@ -88,6 +94,7 @@ const ContactUs = () => {
             ></iframe>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
