@@ -17,14 +17,18 @@ const HeroSection = () => {
           </p>
           <div className="flex items-center gap-3 flex-wrap pt-10">
             <Link
-              href="/my-work"
+              href="/gallary"
               className="bg-slate-100 text-center  py-3 shadow-md max-[330px]:max-w-52 max-[330px]:w-full hover:shadow-white/30 shadow-black/30 px-7 hover:bg-transparent hover:text-white transition-all duration-150 text-black border border-white rounded-full"
             >
-              My works
+              Gallary
             </Link>
-            <button className="bg-transparent py-3  text-center shadow-md max-[330px]:max-w-52 max-[330px]:w-full hover:shadow-black/30 shadow-white/30  hover:bg-slate-100 hover:text-black transition-all duration-150 px-7 text-white border border-white rounded-full">
+            <Link
+              href="/contact-us"
+              className="bg-transparent py-3  text-center shadow-md max-[330px]:max-w-52 max-[330px]:w-full hover:shadow-black/30 shadow-white/30  hover:bg-slate-100 hover:text-black transition-all duration-150 px-7 text-white border border-white rounded-full"
+            >
               Contact me
-            </button>
+            </Link>
+           
           </div>
         </div>
       </div>

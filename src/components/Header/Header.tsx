@@ -11,8 +11,8 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <div className="bg-dark">
-    <div className="shadow-sm bg-[#1b1b1b] text-white sticky z-[100] top-0 !py-7 flex items-center justify-between top-container">
+    <div className="bg-dark sticky z-[100] top-0">
+    <div className="shadow-sm bg-[#1b1b1b] text-white !py-7 flex items-center justify-between top-container">
       <h1 className="uppercase font-poppins-bold tracking-tight text-xl text-slate-100 hidden">
         prince studio
       </h1>

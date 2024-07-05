@@ -1,15 +1,13 @@
 import { workImages } from "@/utils/constants";
+import { Divider } from "@mantine/core";
 import React from "react";
 
-const MyWork = () => {
+const Gallary = () => {
   return (
     <div className="bg-slate-100">
       <div className="text-black top-container !py-20 max-sm:!py-10">
-        <div className="text-center max-w-[700px] mx-auto space-y-5 pb-5">
-          <p className="text-4xl font-merry-bold tracking-tight">
-            My <span className="text-primary font-merry-bold">Works</span>
-          </p>
-        </div>
+        <p className="text-4xl font-merry-bold tracking-tight pb-5 text-center">Gallary</p>
+        <Divider />
         <div className="gap-5 py-5 flex flex-wrap">
           {workImages.map((data) => (
             <a href={data.image} target="_blank">
@@ -27,4 +25,4 @@ const MyWork = () => {
   );
 };
 
-export default MyWork;
+export default Gallary;

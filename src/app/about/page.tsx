@@ -2,7 +2,7 @@ import Introduction from "@/components/Home/Introduction";
 import { Divider } from "@mantine/core";
 import Image from "next/image";
 import React from "react";
-import TeamContainer from "./components/TeamContainer";
+import Team from "@/components/Home/Team";
 
 const About = () => {
   return (
@@ -38,21 +38,23 @@ const About = () => {
               My only mission: Capture captivating moments
             </p>
             <p>
-              Nulla quis efficitur lacus, pulvinar posuere augue. Duis eu
-              vestibulum arcuman. Mauris luctus nulla a scelerisque ultricies.
-              Integer leo nisl, auctor ac aliquamen the placerat quis risus.
-              Maecenas vitae tellus massa.
+              My goal is simple: to capture moments that truly stand out. I want
+              each photo to tell a story and evoke emotions. Through my lens, I
+              aim to showcase the beauty in everyday life. Every shot is an
+              opportunity to create something memorable. This is my passion and
+              my mission.
             </p>
           </div>
           <div className="max-w-[400px] grid max-[850px]:max-w-[600px]">
             <div className="max-[850px]:order-1">
               <p className="text-2xl py-5">Why I started as a photographer</p>
               <p>
-                Nulla quis efficitur lacus, pulvinar posuere augue. Duis eu
-                vestibulum arcuman. Mauris luctus nulla a scelerisque ultricies.
-                Integer leo nisl, auctor ac aliquamen the placerat quis risus.
-                Maecenas vitae tellus massa. Phasellus faucibus leo in finibus
-                pharetra. Suspendisse est diam, convallis vitae arcuma euismo.
+                I started photography because I love capturing moments and
+                telling stories through images. My first camera opened my eyes
+                to the beauty around me. Each photo I take shows a unique
+                perspective and a special memory. Photography lets me express
+                myself and share my view of the world. It’s my passion and my
+                way of connecting with people.
               </p>
             </div>
             <Image
@@ -65,31 +67,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      <div className="bg-slate-100">
-        <div className="top-container !py-20 max-sm:!py-10">
-          <div className="text-center space-y-5">
-            <p className="text-4xl font-merry-bold tracking-tight max-[375px]:text-3xl">
-              Professional Team
-            </p>
-            <Divider />
-            <div className="flex justify-between max-[680px]:justify-center gap-3 flex-wrap">
-              <TeamContainer
-                imagePath="/Images/chandresh.jpg"
-                name="Chandresh Chavda"
-              />
-              <TeamContainer
-                imagePath="/Images/chandresh.jpg"
-                name="Chandresh Chavda"
-              />
-              <TeamContainer
-                imagePath="/Images/chandresh.jpg"
-                name="Chandresh Chavda"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      <Team theme="light" />
     </div>
   );
 };
