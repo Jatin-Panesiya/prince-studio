@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+
 const HeroSection = () => {
   return (
     <div className="bg-[url('../assets/Images/HeroBg.jpg')] bg-cover bg-center relative">

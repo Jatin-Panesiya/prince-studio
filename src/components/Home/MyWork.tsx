@@ -1,25 +1,32 @@
 import { workImages } from "@/utils/constants";
 import { Divider } from "@mantine/core";
 import React from "react";
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
 
 const Gallary = () => {
   return (
     <div className="bg-slate-100">
       <div className="text-black top-container !py-20 max-sm:!py-10">
-        <p className="text-4xl font-merry-bold tracking-tight pb-5 text-center">Gallary</p>
-        <Divider />
-        <div className="gap-5 py-5 flex flex-wrap">
+        <p className="text-4xl font-merry-bold tracking-tight pb-5 text-center">
+          Gallary
+        </p>
+        <Divider className="pb-10" />
+
+        <ImageList cols={3} variant="quilted">
           {workImages.map((data) => (
-            <a href={data.image} target="_blank">
-              <img
-                key={data.id}
-                src={data.image}
-                alt={data.image}
-                className="rounded-md shadow shadow-primary hover:scale-95 transition-all duration-150"
-              />
-            </a>
+            <ImageListItem key={data.image}>
+              <a href={data.image} target="_blank">
+                <img
+                  srcSet={`${data.image}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                  src={`${data.image}?w=164&h=164&fit=crop&auto=format`}
+                  alt={data.image}
+                  loading="lazy"
+                />
+              </a>
+            </ImageListItem>
           ))}
-        </div>
+        </ImageList>
       </div>
     </div>
   );
