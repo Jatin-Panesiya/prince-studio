@@ -1,4 +1,8 @@
 import { CiCamera, CiVideoOn } from "react-icons/ci";
+import { FaCamera, FaVideo } from "react-icons/fa";
+import { GiDeliveryDrone, GiEngagementRing } from "react-icons/gi";
+import { MdOutlineEmojiEvents } from "react-icons/md";
+import { RiCameraLensFill } from "react-icons/ri";
 
 export const headerData = [
   {
@@ -31,47 +35,48 @@ export const headerData = [
 export const services = [
   {
     id: 1,
-    title: "Photography",
+    title: "Wedding Shoots",
     description:
-      "Photography bibendum eros amet vacun the vulputate in the vitae miss.",
-    Icon: CiCamera,
+      "Capture your special day with professional photos that preserve every moment.",
+    Icon: FaCamera,
   },
   {
     id: 2,
-    title: "Videography",
+    title: "Pre-Wedding Shoots",
     description:
-      "Videography bibendum eros amet vacun the vulputate in the vitae miss.",
-    Icon: CiVideoOn,
+      "Create beautiful memories before your wedding day with expert videography.",
+    Icon: FaVideo,
   },
   {
     id: 3,
-    title: "Web Development",
+    title: "Event Shoots",
     description:
-      "Web Development bibendum eros amet vacun the vulputate in the vitae miss.",
-    Icon: CiCamera,
+      "Document your events with high-quality photos to remember them for years.",
+    Icon: MdOutlineEmojiEvents,
   },
   {
     id: 4,
-    title: "App Development",
+    title: "Portrait Shoots",
     description:
-      "App Development bibendum eros amet vacun the vulputate in the vitae miss.",
-    Icon: CiCamera,
+      "Capture stunning portraits that authentically show your personality and style.",
+    Icon: RiCameraLensFill,
   },
   {
     id: 5,
-    title: "SEO",
+    title: "Drone Shoots",
     description:
-      "SEO bibendum eros amet vacun the vulputate in the vitae miss.",
-    Icon: CiCamera,
+      "Get amazing aerial photos to add a unique view to your projects or events.",
+    Icon: GiDeliveryDrone,
   },
   {
     id: 6,
-    title: "Digital Marketing",
+    title: "Engagement Shoots",
     description:
-      "Digital Marketing bibendum eros amet vacun the vulputate in the vitae miss.",
-    Icon: CiCamera,
+      "Celebrate your engagement with beautiful photos that capture the joy and excitement.",
+    Icon: GiEngagementRing,
   },
 ];
+
 
 export const workImages = [
   {

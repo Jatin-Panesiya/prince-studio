@@ -17,7 +17,7 @@ const MyServices = () => {
               key={service.id}
               className="w-full h-[250px] border-[#99999977] rounded border flex flex-col gap-y-3 p-5 justify-center shadow shadow-primary/20"
             >
-              <p className="rounded p-1 w-fit shadow shadow-primary/40">
+              <p className="rounded p-1 w-fit">
                 <service.Icon size={45} className="text-primary" />
               </p>
               <p className="text-lg font-poppins-medium">{service.title}</p>

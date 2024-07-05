@@ -28,7 +28,6 @@ const HeroSection = () => {
             >
               Contact me
             </Link>
-           
           </div>
         </div>
       </div>
