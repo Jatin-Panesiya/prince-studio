@@ -27,6 +27,10 @@
   src: url("../assets/fonts/merriweather-sans/MerriweatherSans-Bold.ttf");
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .font-merry-bold {
   font-family: "Merry-Bold" !important;
 }
@@ -35,7 +39,7 @@
   font-family: "Merry-ExtraBold" !important;
 }
 
-*{
+* {
   font-family: "Poppins-Regular" !important;
 }
 

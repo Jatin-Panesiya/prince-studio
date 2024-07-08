@@ -81,32 +81,22 @@ export const workImages = [
   {
     id: 1,
     image: "/Images/work-images/image1.jpg",
-    rows: 5,
-    cols: 2,
   },
   {
     id: 2,
     image: "/Images/work-images/image2.jpg",
-    rows: 5,
-    cols: 2,
   },
-  
+  {
+    id: 5,
+    image: "/Images/work-images/image5.jpg",
+  },
   {
     id: 3,
     image: "/Images/work-images/image3.jpg",
-    rows: 3,
-    cols: 2,
   },
   {
     id: 4,
     image: "/Images/work-images/image4.jpg",
-    rows: 3,
-    cols: 2,
-  },{
-    id: 5,
-    image: "/Images/work-images/image5.jpg",
-    rows: 5,
-    cols: 2,
   },
- 
+  
 ];
