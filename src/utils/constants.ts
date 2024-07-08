@@ -90,7 +90,7 @@ export const workImages = [
     rows: 5,
     cols: 2,
   },
-
+  
   {
     id: 3,
     image: "/Images/work-images/image3.jpg",
@@ -102,11 +102,11 @@ export const workImages = [
     image: "/Images/work-images/image4.jpg",
     rows: 3,
     cols: 2,
-  },
-  {
+  },{
     id: 5,
     image: "/Images/work-images/image5.jpg",
     rows: 5,
     cols: 2,
   },
+ 
 ];

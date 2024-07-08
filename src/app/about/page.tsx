@@ -67,7 +67,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Team theme="light" />
+      {/* <Team theme="light" /> */}
     </div>
   );
 };

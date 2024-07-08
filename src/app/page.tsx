@@ -13,7 +13,7 @@ const Home = () => {
       <Introduction />
       <MyServices />
       <MyWork />
-      <Team theme="dark" />
+      {/* <Team theme="dark" /> */}
     </>
   );
 };
