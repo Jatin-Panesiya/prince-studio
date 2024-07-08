@@ -67,16 +67,17 @@ const Footer = () => {
         </div>
         <div>
           <p className="font-merry-bold pb-1">Call us</p>
-          <a href="tel:9824383396" className="hover:text-primary transition-all duration-150">
+          <a
+            href="tel:9824383396"
+            className="hover:text-primary transition-all duration-150"
+          >
             +91 9824383396
           </a>
         </div>
-        <div>
-          <p className="font-poppins-medium">
-            &copy; 2024 Prince Studio. All Rights Reserved.
-          </p>
-        </div>
       </div>
+      <p className="font-poppins-medium top-container !pt-5">
+        &copy; 2024 Prince Studio. All Rights Reserved.
+      </p>
     </div>
   );
 };
